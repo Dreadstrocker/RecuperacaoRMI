@@ -5,7 +5,15 @@ Versão Java : SDK-19, apesar da IDE ter instalado java SDK - 23.0.2
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Etapas da recuperação : 
+Explicação do código. 
+RoomManager é a classe que contem a implementação dos métodos
+RoomManagerImpl é a interface de transparência tanto para cliente(HotelCliente) como servidor(HotelServer)
+que responde às chamadas do cliente, e chama RoomManager para execução dos códigos
+HotelCliente é a classe de chamada dos métodos pelo cliente, o qual se comunica com a interface RoomManagerImpl, onde os métodos de RoomManager
+são conhecidos por HotelCliente e HotelServidor.
+HotelServer : é a classe do servidor, o qual deve estar ativo antes das outras classes.
 
+Assuntos : 
 Assuntos vistos no processo da recuperação - 
 Proc, stub, Server, RMI,  interface, Cliente, abstração, portas 
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -27,7 +35,7 @@ Descobrir quem é a interface para o servidor chamar
 Descobrir quem é a interface para o cliente
 Proxy(Se tiver)
 
-
+___________________________________________________________________________________________________________________________________________________
 Dificuldades situacionais :
 O SDK instalado estava com o Path sem ser prioridade em Variáveis de Ambiente -> Sistema
 
@@ -35,7 +43,7 @@ No que impactou : o rmiregistry não era encontrada, porque uma variável de amb
 do Java, mais antiga.
 
 JAVA_HOME , uma variável de ambiente, fora de Path, não existia nas variáveis de ambiente -> sistema, no meu computador.
--------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
 Foi utilizado, com autorização do professor, um vídeo sobre implementação de RMI. 
 Esse vídeo contém um versão mais antiga, a qual a classe stub ainda precisa ser inicializada pelo usuário, e que também aparece.
 Configuração do cliente.policy e server.policy.
