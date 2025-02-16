@@ -3,12 +3,6 @@
 IDE utilizada :  Intellij Community
 Versão Java : SDK-19, apesar da IDE ter instalado java SDK - 23.0.2
 
-Foi utilizada interface 
-Separar os códigos em suas respectivas classes.
-Reler o que é Proc (no artigo)   
-Descobrir quem é a interface para o servidor chamar
-Descobrir quem é a interface para o cliente
-Proxy(Se tiver)
 
 
 Etapas da recuperação : 
@@ -26,9 +20,17 @@ RMI -  Recuperação
 - Fontes (bibliografia)
 - Citação(Se tiver, no caso tenho uma do Moodle )
 
+Tarefas pessoais sobre conceitos :
+Foi utilizada interface 
+Separar os códigos em suas respectivas classes.
+Reler o que é Proc (no artigo)   
+Descobrir quem é a interface para o servidor chamar
+Descobrir quem é a interface para o cliente
+Proxy(Se tiver)
+
+
+
 Bibliografia : 
-
-
 
 1 -
 Arquivo
